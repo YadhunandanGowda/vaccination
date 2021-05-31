@@ -1,0 +1,18 @@
+@media only screen and (max-width: 480px) {
+    .lcnDtls {
+        flex-wrap: wrap;
+        margin: 20px 0px;
+    }
+    .lcnDtls .lcnchld {
+        margin: 10px 0px;
+    }
+    .lcnDtls .lcnchld label, .lcnDtls .lcnchld select {
+        flex: 1;
+    }
+    .lcnDtls .lcnchld select {
+        width: 150px;
+    }
+    .main-wrapper {
+        padding: 0px 20px;
+    }
+}
