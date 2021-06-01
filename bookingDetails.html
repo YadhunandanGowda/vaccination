@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RMG</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"><img class="web-icon" src="./images/larsen-and-toubro-logo-web.png" alt=""><img
+                class="mob-icon" src="./images/larsen-and-toubro-logo-mob.png" alt=""></div>
+        <div class="options">
+            <a class="home-icon" href="javascript:void(0)"> <img src="./images/home-icon.png" alt=""> </a>
+            <div class="profile-pic">
+                <a class="outer-pp" href="javascript:void(0)"><img src="./images/landt-pp.png" alt=""></a>
+                <div class="logout-popup">
+                    <div class="cls-btn"></div>
+                    <div class="popup-content">
+                        <h3>Name</h3>
+                        <p>Email@gmail.com</p>
+                        <img class="inner-pp" src="./images/landt-pp.png" alt="">
+                        <button class="btn log-out-btn">Log Out</button>
+                    </div>
+                </div>
+            </div>
+            <a class="back-btn" href="javascript:void(0)"><img src="./images/back_btn.png" alt=""></a>
+        </div>
+        <div id="preloader">
+            <div class="preloader-container">
+                <div class="preloader-animation"></div>
+            </div>
+        </div>
+    </header>
+    <div class="main-wrapper">
+        <div class="pgtitle">
+            <h1>Schedule Booking</h1>
+        </div>
+        <div class="tblCntr">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Building Location</th>
+                        <th>Date</th>
+                        <th>Slot Time</th>
+                        <th>Available / Open Numbers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Manyatha - L3 Building</td>
+                        <td>2-June-2021</td>
+                        <td>Afternoon</td>
+                        <td>31</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="lcnDtls">
+            <div class="lcnchld">
+                <label for="location">No of people to be booked :</label>
+                <select id="location" class="form-control">
+                    <option value="">Select</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                </select>
+            </div>
+        </div>
+        <div class="tblCntr">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name as per AADHAR</th>
+                        <th>AAADHAR ID</th>
+                        <th>Relationship</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Vaccine Number</th>
+                        <th>Preffered Vaccine Number</th>
+                        <th>Other Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input class="form-control" type="text" placeholder="Please enter the value" /></td>
+                        <td><input class="form-control" type="text" placeholder="Please enter the value" /></td>
+                        <td>
+                            <select class="form-control">
+                                <option value="">select</option>
+                                <option value="">value 1</option>
+                                <option value="">value 2</option>
+                            </select>
+                        </td>
+                        <td><input class="form-control" type="text" placeholder="Please enter the value" /></td>
+                        <td>
+                            <select class="form-control">
+                                <option value="">select</option>
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="form-control">
+                                <option value="">select</option>
+                                <option value="">value 1</option>
+                                <option value="">value 2</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="form-control">
+                                <option value="">select</option>
+                                <option value="">value 1</option>
+                                <option value="">value 2</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select class="form-control">
+                                <option value="">select</option>
+                                <option value="">value 1</option>
+                                <option value="">value 2</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
