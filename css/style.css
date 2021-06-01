@@ -35,22 +35,52 @@ body {
 
 .main-wrapper {
     margin-top: 70px;
+    padding: 0px 40px 40px;
 }
 
 .pgtitle {
     color: white;
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pgtitle h1 {
+    position: relative;
+    margin-top: 10px;
+}
+
+.pgtitle h1::before, .pgtitle h1::after {
+    content: '';
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+
+.pgtitle h1::before {
+    background-image: url(../images/before-title.png);
+    left: -50px;
+}
+
+.pgtitle h1::after {
+    background-image: url(../images/after-title.png);
+    right: -50px;
+    top: 22px;
 }
 
 .lcnDtls {
     display: flex;
     margin: 40px 0px;
+    flex-wrap: wrap;
 }
 
 .lcnDtls .lcnchld {
     display: flex;
     flex: 1;
+    margin: 10px 0px;
     align-items: center;
     justify-content: center;
 }
@@ -69,10 +99,6 @@ body {
     font-size: 16px;
     color: orange;
     text-align: right;
-}
-
-.main-wrapper {
-    padding: 0px 40px;
 }
 
 .tblCntr {
@@ -105,4 +131,44 @@ body {
 
 .form-control {
     border-radius: 50px;
+}
+
+.tblCntr .form-control {
+    height: auto;
+    padding: 5px 10px;
+    padding-top: 3px;
+    line-height: initial;
+    font-size: 12px;
+    border-radius: 2px;
+    border: 0;
+}
+
+.noteSection ul {
+    color: red;
+    font-size: 12px;
+    background: #ffffff5c;
+    padding: 10px;
+    list-style: none;
+    border-radius: 6px;
+    list-style-position: inside;
+}
+
+.saveSubmit {
+    text-align: right;
+}
+
+.saveSubmit button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: orange;
+    border: 0px;
+    color: white;
+}
+
+.saveSubmit button:hover {
+    background: rgb(255, 123, 0);
+}
+
+.declaration {
+    font-size: 12px;
 }
